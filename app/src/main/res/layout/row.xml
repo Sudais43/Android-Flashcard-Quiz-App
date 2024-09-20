@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@drawable/e_design"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:id="@+id/qs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
